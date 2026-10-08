@@ -1,0 +1,22 @@
+29/09/2026
+
+Agenda:
+- Decide regular meeting day and time 
+	- [Tuesday at 12:00pm]
+- Allocate roles for the subsystems
+	- Student [Maya]
+	- Warden [Noah]
+	- Accommodation Officer [Tom]
+	- Platform Operator [Tamsin]
+
+Attendance:
+- Tamsin
+- Maya
+- Tom
+- Noah
+
+Actions:
+- Fix all of our papyrus issues [all]
+- Understand all of our individual subsystems [all]
+	- Quality Requirements [all]
+	- Prepare analysis for the group in the next meeting [all]

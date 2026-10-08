@@ -1,0 +1,22 @@
+06/10/2026
+
+Agenda:
+- Go over the quality requirements for each of our subsystems [done]
+- Submit the quality requirements onto each of our individual git hub repositories [to be done during the week]
+- Start a draft for the use case model of our subsystem [to be done during the week]
+	- Draft to be uploaded to the group git hub repository [to be done during the week]
+- Check that everybody has sorted out their Papyrus [
+
+
+Attendance:
+- Tamsin
+- Maya
+- Tom
+- Noah
+
+Actions:
+- Go through the mark scheme to polish our quality requirements [all]
+- Upload quality requirements onto our individual git hubs [all]
+
+Next Meeting:
+- Thursday 08/10/2026 17:00

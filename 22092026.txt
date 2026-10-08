@@ -1,0 +1,19 @@
+22/09/2026
+
+Attendances:
+- Tamsin
+- Maya
+- Tom
+- Noah
+
+Agenda:
+- Team introductions
+- Download Papyrus and set up UMLs for exercises and Coursework
+- Set up individual GitHub repositories
+- Set up team GitHub repository
+- Allocate team structure (Team Leader: Tom, Note Taker: Tamsin)
+- Set up form of communication (the WhatsApp group)
+
+Actions:
+- Download Papyrus onto laptops (all)
+- Read full coursework spec (all)

@@ -149,7 +149,61 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_gUMdM8lyEfGfhsMctnGLyA" name="administration" type="_MPaVsMlxEfGfhsMctnGLyA" association="_gUMdMMlyEfGfhsMctnGLyA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_gUMdNMlyEfGfhsMctnGLyA" name="globalcrossuniversityservices" type="_a7c24MlyEfGfhsMctnGLyA" association="_gUMdMMlyEfGfhsMctnGLyA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_3cVnkMxeEfGloc65MU4Pxg" name="Activity13" node="_S7xYMMxfEfGloc65MU4Pxg">
-    <node xmi:type="uml:InitialNode" xmi:id="_S7xYMMxfEfGloc65MU4Pxg" name=""/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_3cVnkMxeEfGloc65MU4Pxg" name="Activity13" node="_S7xYMMxfEfGloc65MU4Pxg _VtCW8NHmEfG995FoPlaZOg _gJV9wNHmEfG995FoPlaZOg _hw0R4NHmEfG995FoPlaZOg _ny5wINHmEfG995FoPlaZOg _yL3vENHmEfG995FoPlaZOg _FAMJsNHnEfG995FoPlaZOg _MjxacNHoEfG995FoPlaZOg">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_DkbLwNHmEfG995FoPlaZOg" name="Customer" node="_MRTcUNHmEfG995FoPlaZOg _vHgmMNHmEfG995FoPlaZOg _77cywNHmEfG995FoPlaZOg _Is0-ENHoEfG995FoPlaZOg">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XrK3kNHmEfG995FoPlaZOg" target="_VtCW8NHmEfG995FoPlaZOg" source="_MRTcUNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_1HOs8NHmEfG995FoPlaZOg" target="_yL3vENHmEfG995FoPlaZOg" source="_vHgmMNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_-r8kcNHmEfG995FoPlaZOg" target="_77cywNHmEfG995FoPlaZOg" source="_vHgmMNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_HU4wMNHnEfG995FoPlaZOg" target="_FAMJsNHnEfG995FoPlaZOg" source="_77cywNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Nn8NMNHoEfG995FoPlaZOg" target="_MjxacNHoEfG995FoPlaZOg" source="_Is0-ENHoEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_MRTcUNHmEfG995FoPlaZOg" name="Start Log In" incoming="_N5apoNHmEfG995FoPlaZOg" outgoing="_XrK3kNHmEfG995FoPlaZOg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_vHgmMNHmEfG995FoPlaZOg" name="DecisionNode3" incoming="_6QV70NHmEfG995FoPlaZOg" outgoing="_1HOs8NHmEfG995FoPlaZOg _-r8kcNHmEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_77cywNHmEfG995FoPlaZOg" name="Press Branding Button" incoming="_-r8kcNHmEfG995FoPlaZOg _I2iJINHnEfG995FoPlaZOg" outgoing="_HU4wMNHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_Is0-ENHoEfG995FoPlaZOg" name="View Branding" incoming="_KoxGUNHoEfG995FoPlaZOg" outgoing="_Nn8NMNHoEfG995FoPlaZOg">
+        <result xmi:type="uml:OutputPin" xmi:id="_Is1lINHoEfG995FoPlaZOg" name="result">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Is1lIdHoEfG995FoPlaZOg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Is1lItHoEfG995FoPlaZOg" value="1"/>
+        </result>
+      </node>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZFW9oNHmEfG995FoPlaZOg" name="PlatformOperatorSubsystem" node="_c17FMNHmEfG995FoPlaZOg _NFW6ANHnEfG995FoPlaZOg _TmMJwNHnEfG995FoPlaZOg _cwhLUNHnEfG995FoPlaZOg _ks4k8NHnEfG995FoPlaZOg">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_qg-f8NHmEfG995FoPlaZOg" target="_gJV9wNHmEfG995FoPlaZOg" source="_c17FMNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ShtN8NHnEfG995FoPlaZOg" source="_NFW6ANHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_YOFh8NHnEfG995FoPlaZOg" target="_TmMJwNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_d6S20NHnEfG995FoPlaZOg" target="_cwhLUNHnEfG995FoPlaZOg" source="_NFW6ANHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_xxXH4NHnEfG995FoPlaZOg" name="[No Branding]" target="_cwhLUNHnEfG995FoPlaZOg" source="_TmMJwNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_45lu0NHnEfG995FoPlaZOg" name="[Else]" target="_ks4k8NHnEfG995FoPlaZOg" source="_cwhLUNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="__quEYNHnEfG995FoPlaZOg" target="_ny5wINHmEfG995FoPlaZOg" source="_TmMJwNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_F2SOwNHoEfG995FoPlaZOg" target="_hw0R4NHmEfG995FoPlaZOg" source="_ks4k8NHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_c17FMNHmEfG995FoPlaZOg" name="Send to Account" incoming="_ebvMcNHmEfG995FoPlaZOg" outgoing="_qg-f8NHmEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_NFW6ANHnEfG995FoPlaZOg" name="Check Branding" incoming="_OmUWcNHnEfG995FoPlaZOg" outgoing="_ShtN8NHnEfG995FoPlaZOg _d6S20NHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_TmMJwNHnEfG995FoPlaZOg" name="Display Error Message &quot;No Branding&quot;" incoming="_YOFh8NHnEfG995FoPlaZOg" outgoing="_xxXH4NHnEfG995FoPlaZOg __quEYNHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_cwhLUNHnEfG995FoPlaZOg" name="DecisionNode7" incoming="_d6S20NHnEfG995FoPlaZOg _xxXH4NHnEfG995FoPlaZOg" outgoing="_45lu0NHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_ks4k8NHnEfG995FoPlaZOg" name="Display All Customer Branding" incoming="_45lu0NHnEfG995FoPlaZOg" outgoing="_F2SOwNHoEfG995FoPlaZOg"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_N5apoNHmEfG995FoPlaZOg" target="_MRTcUNHmEfG995FoPlaZOg" source="_S7xYMMxfEfGloc65MU4Pxg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ebvMcNHmEfG995FoPlaZOg" target="_c17FMNHmEfG995FoPlaZOg" source="_VtCW8NHmEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6QV70NHmEfG995FoPlaZOg" target="_vHgmMNHmEfG995FoPlaZOg" source="_gJV9wNHmEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_I2iJINHnEfG995FoPlaZOg" target="_77cywNHmEfG995FoPlaZOg" source="_ny5wINHmEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OmUWcNHnEfG995FoPlaZOg" target="_NFW6ANHnEfG995FoPlaZOg" source="_FAMJsNHnEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KoxGUNHoEfG995FoPlaZOg" target="_Is0-ENHoEfG995FoPlaZOg" source="_hw0R4NHmEfG995FoPlaZOg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_S7xYMMxfEfGloc65MU4Pxg" name="" outgoing="_N5apoNHmEfG995FoPlaZOg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_VtCW8NHmEfG995FoPlaZOg" name="Message to request login" incoming="_XrK3kNHmEfG995FoPlaZOg" outgoing="_ebvMcNHmEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_VtC-ANHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_gJV9wNHmEfG995FoPlaZOg" name="Open Account Page" incoming="_qg-f8NHmEfG995FoPlaZOg" outgoing="_6QV70NHmEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_gJWk0NHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_hw0R4NHmEfG995FoPlaZOg" name="Display Branding" incoming="_F2SOwNHoEfG995FoPlaZOg" outgoing="_KoxGUNHoEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_hw048NHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_ny5wINHmEfG995FoPlaZOg" name="Error Message &quot;No Branding&quot;" incoming="__quEYNHnEfG995FoPlaZOg" outgoing="_I2iJINHnEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ny6XMNHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_yL3vENHmEfG995FoPlaZOg" name="Other Activity" incoming="_1HOs8NHmEfG995FoPlaZOg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_FAMJsNHnEfG995FoPlaZOg" name="Message to Request Branding" incoming="_HU4wMNHnEfG995FoPlaZOg" outgoing="_OmUWcNHnEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_FAMwwNHnEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_MjxacNHoEfG995FoPlaZOg" name="ActivityFinalNode16" incoming="_Nn8NMNHoEfG995FoPlaZOg"/>
   </packagedElement>
 </uml:Model>

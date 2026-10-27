@@ -1198,19 +1198,6 @@
                 <styles xmi:type="notation:TitleStyle" xmi:id="_ItAkQdHoEfG995FoPlaZOg"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ItAkQtHoEfG995FoPlaZOg"/>
               </children>
-              <children xmi:type="notation:Shape" xmi:id="_ItBLUNHoEfG995FoPlaZOg" type="OutputPin_CreateObjectActionResultShape">
-                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ItnoQtHoEfG995FoPlaZOg" source="PapyrusCSSForceValue">
-                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ItnoQ9HoEfG995FoPlaZOg" key="mutable" value="true"/>
-                </eAnnotations>
-                <children xmi:type="notation:DecorationNode" xmi:id="_ItBLUtHoEfG995FoPlaZOg" type="OutputPin_CreateObjectActionResultNameLabel">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_ItBLU9HoEfG995FoPlaZOg" y="15"/>
-                </children>
-                <children xmi:type="notation:DecorationNode" xmi:id="_ItBLVNHoEfG995FoPlaZOg" type="OutputPin_CreateObjectActionResultStereotypeLabel">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_ItBLVdHoEfG995FoPlaZOg" y="15"/>
-                </children>
-                <element xmi:type="uml:OutputPin" href="Coursework.uml#_Is1lINHoEfG995FoPlaZOg"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ItBLUdHoEfG995FoPlaZOg"/>
-              </children>
               <element xmi:type="uml:CreateObjectAction" href="Coursework.uml#_Is0-ENHoEfG995FoPlaZOg"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Is8S0dHoEfG995FoPlaZOg" x="35" y="286"/>
             </children>
@@ -1383,7 +1370,7 @@
         </children>
         <children xmi:type="notation:Shape" xmi:id="_Mj7LcNHoEfG995FoPlaZOg" type="ActivityFinalNode_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_Mj7LctHoEfG995FoPlaZOg" type="ActivityFinalNode_FloatingNameLabel">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Mj7Lc9HoEfG995FoPlaZOg" y="15"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Mj7Lc9HoEfG995FoPlaZOg" x="-40" y="40"/>
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_Mj7LdNHoEfG995FoPlaZOg" type="ActivityFinalNode_StereotypeLabel">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_Mj7LddHoEfG995FoPlaZOg" y="15"/>

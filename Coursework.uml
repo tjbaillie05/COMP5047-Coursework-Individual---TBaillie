@@ -159,12 +159,7 @@
       <node xmi:type="uml:CreateObjectAction" xmi:id="_MRTcUNHmEfG995FoPlaZOg" name="Start Log In" incoming="_N5apoNHmEfG995FoPlaZOg" outgoing="_XrK3kNHmEfG995FoPlaZOg"/>
       <node xmi:type="uml:DecisionNode" xmi:id="_vHgmMNHmEfG995FoPlaZOg" name="DecisionNode3" incoming="_6QV70NHmEfG995FoPlaZOg" outgoing="_1HOs8NHmEfG995FoPlaZOg _-r8kcNHmEfG995FoPlaZOg"/>
       <node xmi:type="uml:CreateObjectAction" xmi:id="_77cywNHmEfG995FoPlaZOg" name="Press Branding Button" incoming="_-r8kcNHmEfG995FoPlaZOg _I2iJINHnEfG995FoPlaZOg" outgoing="_HU4wMNHnEfG995FoPlaZOg"/>
-      <node xmi:type="uml:CreateObjectAction" xmi:id="_Is0-ENHoEfG995FoPlaZOg" name="View Branding" incoming="_KoxGUNHoEfG995FoPlaZOg" outgoing="_Nn8NMNHoEfG995FoPlaZOg">
-        <result xmi:type="uml:OutputPin" xmi:id="_Is1lINHoEfG995FoPlaZOg" name="result">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Is1lIdHoEfG995FoPlaZOg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Is1lItHoEfG995FoPlaZOg" value="1"/>
-        </result>
-      </node>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_Is0-ENHoEfG995FoPlaZOg" name="View Branding" incoming="_KoxGUNHoEfG995FoPlaZOg" outgoing="_Nn8NMNHoEfG995FoPlaZOg"/>
     </ownedBehavior>
     <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZFW9oNHmEfG995FoPlaZOg" name="PlatformOperatorSubsystem" node="_c17FMNHmEfG995FoPlaZOg _NFW6ANHnEfG995FoPlaZOg _TmMJwNHnEfG995FoPlaZOg _cwhLUNHnEfG995FoPlaZOg _ks4k8NHnEfG995FoPlaZOg">
       <edge xmi:type="uml:ControlFlow" xmi:id="_qg-f8NHmEfG995FoPlaZOg" target="_gJV9wNHmEfG995FoPlaZOg" source="_c17FMNHmEfG995FoPlaZOg"/>
@@ -204,6 +199,6 @@
     <node xmi:type="uml:CentralBufferNode" xmi:id="_FAMJsNHnEfG995FoPlaZOg" name="Message to Request Branding" incoming="_HU4wMNHnEfG995FoPlaZOg" outgoing="_OmUWcNHnEfG995FoPlaZOg">
       <upperBound xmi:type="uml:LiteralInteger" xmi:id="_FAMwwNHnEfG995FoPlaZOg" value="1"/>
     </node>
-    <node xmi:type="uml:ActivityFinalNode" xmi:id="_MjxacNHoEfG995FoPlaZOg" name="ActivityFinalNode16" incoming="_Nn8NMNHoEfG995FoPlaZOg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_MjxacNHoEfG995FoPlaZOg" name="End Activity" incoming="_Nn8NMNHoEfG995FoPlaZOg"/>
   </packagedElement>
 </uml:Model>

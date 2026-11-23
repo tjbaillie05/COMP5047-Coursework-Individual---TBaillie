@@ -203,26 +203,22 @@
       <node xmi:type="uml:ActivityFinalNode" xmi:id="_MjxacNHoEfG995FoPlaZOg" name="End Activity" incoming="_Nn8NMNHoEfG995FoPlaZOg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_NK41UOJxEfG1PO7Fka7_4A" name="PlatformOperator">
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_Knt4gOJyEfG1PO7Fka7_4A" name="TI" aggregation="composite">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_SossYOJyEfG1PO7Fka7_4A">
-          <body></body>
-        </ownedComment>
-      </ownedAttribute>
-      <packagedElement xmi:type="uml:Component" xmi:id="_SL2NwOJxEfG1PO7Fka7_4A" name="TenantInformation"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_SL2NwOJxEfG1PO7Fka7_4A" name="TenantInformation">
+        <packagedElement xmi:type="uml:Usage" xmi:id="_gTYTsOdUEfG3P5tk5_iHBw" client="_SL2NwOJxEfG1PO7Fka7_4A" supplier="_WCaPoOdTEfG3P5tk5_iHBw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_U6XpgOJxEfG1PO7Fka7_4A" name="Subscriptions"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_WmhCQOJxEfG1PO7Fka7_4A" name="Broadcasts"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_YIAqMOJxEfG1PO7Fka7_4A" name="Inventory"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_7r_DkOdUEfG3P5tk5_iHBw" name="Invoicing"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_fS9N8OJxEfG1PO7Fka7_4A" name="Interface15">
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_fyjUAOJxEfG1PO7Fka7_4A" name="Operation1"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_YIAqMOJxEfG1PO7Fka7_4A" name="Inventory">
+      <packagedElement xmi:type="uml:Component" xmi:id="_WCaPoOdTEfG3P5tk5_iHBw" name="TenantSpecificBranding"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Z6WKgOdTEfG3P5tk5_iHBw" name="CostDatabase"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_h-mU0OdTEfG3P5tk5_iHBw" name="ResourceUsageMetering">
+        <packagedElement xmi:type="uml:Component" xmi:id="_tjk-cOdUEfG3P5tk5_iHBw" name="ActiveStudents"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_yUz40OdUEfG3P5tk5_iHBw" name="ActiveBedroomCount"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_03sFQOdUEfG3P5tk5_iHBw" name="CallVolumes"/>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_nJz1cOJxEfG1PO7Fka7_4A" name="Interface16"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_o0yJgOJxEfG1PO7Fka7_4A" name="Interface17"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_qZ1bwOJxEfG1PO7Fka7_4A" name="Interface18"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_sKdE0OJxEfG1PO7Fka7_4A" name=""/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_uy1cUOJxEfG1PO7Fka7_4A" name="Interface20"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_wfTlMOJxEfG1PO7Fka7_4A" name="Interface21"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_yWnFEOJxEfG1PO7Fka7_4A" name="Interface22"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SpIKMOJyEfG1PO7Fka7_4A">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SpRUIOJyEfG1PO7Fka7_4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
@@ -230,5 +226,5 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
     </profileApplication>
   </uml:Model>
-  <ActionLanguage:TextualRepresentation xmi:id="_SpfWkOJyEfG1PO7Fka7_4A" base_Comment="_SossYOJyEfG1PO7Fka7_4A" language="org.eclipse.papyrus.uml.textedit.port.xtext.UmlPort"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_SpfWkOJyEfG1PO7Fka7_4A" language="org.eclipse.papyrus.uml.textedit.port.xtext.UmlPort"/>
 </xmi:XMI>

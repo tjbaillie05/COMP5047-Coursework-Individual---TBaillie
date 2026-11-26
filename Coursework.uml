@@ -1,230 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
-  <uml:Model xmi:id="_dvoWEMlvEfGfhsMctnGLyA" name="Coursework">
-    <packageImport xmi:type="uml:PackageImport" xmi:id="_d4O4cMlvEfGfhsMctnGLyA">
-      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-    </packageImport>
-    <packagedElement xmi:type="uml:Component" xmi:id="_uhKZkMlvEfGfhsMctnGLyA" name="PlatformOperatorSubsystem" useCase="_287E8MlvEfGfhsMctnGLyA _5Dd6sMlvEfGfhsMctnGLyA _6H_SwMlvEfGfhsMctnGLyA _-rsHcMlvEfGfhsMctnGLyA _vAMCcMlwEfGfhsMctnGLyA _7Il-sMlwEfGfhsMctnGLyA _Bl8coMlxEfGfhsMctnGLyA _HhbjoMlxEfGfhsMctnGLyA _g6KGcMlxEfGfhsMctnGLyA _h6BoAMlxEfGfhsMctnGLyA _lqXtIMlxEfGfhsMctnGLyA _ut6KMMlxEfGfhsMctnGLyA _y9-RMMlxEfGfhsMctnGLyA _6QUdcMlxEfGfhsMctnGLyA _-TbGgMlxEfGfhsMctnGLyA _ClbuQMlyEfGfhsMctnGLyA _a7c24MlyEfGfhsMctnGLyA _iHQ9UMlyEfGfhsMctnGLyA _s54yYMlyEfGfhsMctnGLyA _v3FjUMlyEfGfhsMctnGLyA _SIORQMlzEfGfhsMctnGLyA _Uiq6cMlzEfGfhsMctnGLyA _ZWJ3kMlzEfGfhsMctnGLyA _pueJ0MlzEfGfhsMctnGLyA _uhHZcMlzEfGfhsMctnGLyA _xC-SMMlzEfGfhsMctnGLyA _2URMsMlzEfGfhsMctnGLyA _7IwPYMlzEfGfhsMctnGLyA _D3TT4Ml0EfGfhsMctnGLyA _IxlckMl0EfGfhsMctnGLyA _Or3psMl0EfGfhsMctnGLyA _RM_ioMl0EfGfhsMctnGLyA _YEEvMMl0EfGfhsMctnGLyA _csRCUMl0EfGfhsMctnGLyA">
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_287E8MlvEfGfhsMctnGLyA" name="AutomatedTenantOnboarding" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_EKPa0MlwEfGfhsMctnGLyA" extendedCase="_-rsHcMlvEfGfhsMctnGLyA" extensionLocation="_EKR3EMlwEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5Dd6sMlvEfGfhsMctnGLyA" name="Customisation" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_E8BdEMlwEfGfhsMctnGLyA" extendedCase="_-rsHcMlvEfGfhsMctnGLyA" extensionLocation="_E8CEIMlwEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_xsLHkMlwEfGfhsMctnGLyA" addition="_vAMCcMlwEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6H_SwMlvEfGfhsMctnGLyA" name="TenantLifecycleControls" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_FjcpcMlwEfGfhsMctnGLyA" extendedCase="_-rsHcMlvEfGfhsMctnGLyA" extensionLocation="_FjdQgMlwEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-rsHcMlvEfGfhsMctnGLyA" name="TenantManagement" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EKR3EMlwEfGfhsMctnGLyA" name="ExtensionPoint1"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_E8CEIMlwEfGfhsMctnGLyA" name="ExtensionPoint2"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FjdQgMlwEfGfhsMctnGLyA" name="ExtensionPoint3"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_vAMCcMlwEfGfhsMctnGLyA" name="ViewCustomerBranding" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7Il-sMlwEfGfhsMctnGLyA" name="OperatorManagement" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FUbgkMlxEfGfhsMctnGLyA" name="ExtensionPoint1"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KKhs0MlxEfGfhsMctnGLyA" name="ExtensionPoint2"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Bl8coMlxEfGfhsMctnGLyA" name="OperatorAccessControl" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_FUa5gMlxEfGfhsMctnGLyA" extendedCase="_7Il-sMlwEfGfhsMctnGLyA" extensionLocation="_FUbgkMlxEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HhbjoMlxEfGfhsMctnGLyA" name="ImmutableAuditLogging" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_KKhFwMlxEfGfhsMctnGLyA" extendedCase="_7Il-sMlwEfGfhsMctnGLyA" extensionLocation="_KKhs0MlxEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_g6KGcMlxEfGfhsMctnGLyA" name="Billing" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_i2c0AclxEfGfhsMctnGLyA" name="ExtensionPoint1"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_o069kMlxEfGfhsMctnGLyA" name="ExtensionPoint2"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xzTN0MlxEfGfhsMctnGLyA" name="ExtensionPoint3"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_oHhPkclyEfGfhsMctnGLyA" name="ExtensionPoint4"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_h6BoAMlxEfGfhsMctnGLyA" name="Subsrciption" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_i2c0AMlxEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_i2c0AclxEfGfhsMctnGLyA"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_oW0sUMlxEfGfhsMctnGLyA" name="ExtensionPoint2"/>
-        <include xmi:type="uml:Include" xmi:id="_Tk5DkMlzEfGfhsMctnGLyA" addition="_SIORQMlzEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_XM324MlzEfGfhsMctnGLyA" addition="_Uiq6cMlzEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_cj5l8MlzEfGfhsMctnGLyA" addition="_ZWJ3kMlzEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_lqXtIMlxEfGfhsMctnGLyA" name="MultiTierSaaSLicensing" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_oW0FQMlxEfGfhsMctnGLyA" extendedCase="_h6BoAMlxEfGfhsMctnGLyA" extensionLocation="_oW0sUMlxEfGfhsMctnGLyA"/>
-        <extend xmi:type="uml:Extend" xmi:id="_o06WgMlxEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_o069kMlxEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ut6KMMlxEfGfhsMctnGLyA" name="ResourceUsageMetering" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_xzSmwMlxEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_xzTN0MlxEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_1Q4H8MlxEfGfhsMctnGLyA" addition="_y9-RMMlxEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_7oTkEMlxEfGfhsMctnGLyA" addition="_6QUdcMlxEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_BIJ38MlyEfGfhsMctnGLyA" addition="_-TbGgMlxEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_F1dUkMlyEfGfhsMctnGLyA" addition="_ClbuQMlyEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_y9-RMMlxEfGfhsMctnGLyA" name="GetRoomCount" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6QUdcMlxEfGfhsMctnGLyA" name="GetActiveStudents" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-TbGgMlxEfGfhsMctnGLyA" name="CloudStorageConsumption" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ClbuQMlyEfGfhsMctnGLyA" name="GetAPICallVolumes" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_a7c24MlyEfGfhsMctnGLyA" name="GlobalCrossUniversityServices" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tMa3YMlzEfGfhsMctnGLyA" name="ExtensionPoint1"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__O0s4MlzEfGfhsMctnGLyA" name="ExtensionPoint2"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_LijvYMl0EfGfhsMctnGLyA" name="ExtensionPoint3"/>
-        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cC3gAMl0EfGfhsMctnGLyA" name="ExtensionPoint4"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_iHQ9UMlyEfGfhsMctnGLyA" name="AutomatedB2BInvoicing" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_oHhPkMlyEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_oHhPkclyEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_vafG4MlyEfGfhsMctnGLyA" addition="_s54yYMlyEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_1H0dIMlyEfGfhsMctnGLyA" addition="_v3FjUMlyEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_IGAlcMlzEfGfhsMctnGLyA" addition="_v3FjUMlyEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_e8i4UMlzEfGfhsMctnGLyA" addition="_ZWJ3kMlzEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_s54yYMlyEfGfhsMctnGLyA" name="CalculatePeriodicLicencing" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_v3FjUMlyEfGfhsMctnGLyA" name="GenerateAutomatedInvoices" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_SIORQMlzEfGfhsMctnGLyA" name="StandardSubscription" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Uiq6cMlzEfGfhsMctnGLyA" name="ProfessionalSubsription" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZWJ3kMlzEfGfhsMctnGLyA" name="EnterpriseSubscription" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pueJ0MlzEfGfhsMctnGLyA" name="CentralisedALModelManagement" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_tMZpQMlzEfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="_tMa3YMlzEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_wd52QMlzEfGfhsMctnGLyA" addition="_uhHZcMlzEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_y1Z5IMlzEfGfhsMctnGLyA" addition="_xC-SMMlzEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_58IrQMlzEfGfhsMctnGLyA" addition="_2URMsMlzEfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uhHZcMlzEfGfhsMctnGLyA" name="MaintainModel" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_xC-SMMlzEfGfhsMctnGLyA" name="DeployModel" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2URMsMlzEfGfhsMctnGLyA" name="MonitorAccuracy" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7IwPYMlzEfGfhsMctnGLyA" name="CrossTenantBenchmarking" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="__OzewMlzEfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="__O0s4MlzEfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_HUAEQMl0EfGfhsMctnGLyA" addition="_D3TT4Ml0EfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_D3TT4Ml0EfGfhsMctnGLyA" name="GenerateDataset" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_IxlckMl0EfGfhsMctnGLyA" name="ContinuousActiveMachineLearningPipeline" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_LiihQMl0EfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="_LijvYMl0EfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_QvgVYMl0EfGfhsMctnGLyA" addition="_Or3psMl0EfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_UddN0Ml0EfGfhsMctnGLyA" addition="_RM_ioMl0EfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Or3psMl0EfGfhsMctnGLyA" name="AggregateErrors" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_RM_ioMl0EfGfhsMctnGLyA" name="DefectClassification" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YEEvMMl0EfGfhsMctnGLyA" name="TenantLevelSystemBroadcasts" subject="_uhKZkMlvEfGfhsMctnGLyA">
-        <extend xmi:type="uml:Extend" xmi:id="_cC2R4Ml0EfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="_cC3gAMl0EfGfhsMctnGLyA"/>
-        <include xmi:type="uml:Include" xmi:id="_ftMcsMl0EfGfhsMctnGLyA" addition="_csRCUMl0EfGfhsMctnGLyA"/>
-      </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_csRCUMl0EfGfhsMctnGLyA" name="PlatformWideNotification" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_dvoWEMlvEfGfhsMctnGLyA" name="Coursework">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_d4O4cMlvEfGfhsMctnGLyA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_uhKZkMlvEfGfhsMctnGLyA" name="PlatformOperatorSubsystem" useCase="_287E8MlvEfGfhsMctnGLyA _5Dd6sMlvEfGfhsMctnGLyA _6H_SwMlvEfGfhsMctnGLyA _-rsHcMlvEfGfhsMctnGLyA _vAMCcMlwEfGfhsMctnGLyA _7Il-sMlwEfGfhsMctnGLyA _Bl8coMlxEfGfhsMctnGLyA _HhbjoMlxEfGfhsMctnGLyA _g6KGcMlxEfGfhsMctnGLyA _h6BoAMlxEfGfhsMctnGLyA _lqXtIMlxEfGfhsMctnGLyA _ut6KMMlxEfGfhsMctnGLyA _y9-RMMlxEfGfhsMctnGLyA _6QUdcMlxEfGfhsMctnGLyA _-TbGgMlxEfGfhsMctnGLyA _ClbuQMlyEfGfhsMctnGLyA _a7c24MlyEfGfhsMctnGLyA _iHQ9UMlyEfGfhsMctnGLyA _s54yYMlyEfGfhsMctnGLyA _v3FjUMlyEfGfhsMctnGLyA _SIORQMlzEfGfhsMctnGLyA _Uiq6cMlzEfGfhsMctnGLyA _ZWJ3kMlzEfGfhsMctnGLyA _pueJ0MlzEfGfhsMctnGLyA _uhHZcMlzEfGfhsMctnGLyA _xC-SMMlzEfGfhsMctnGLyA _2URMsMlzEfGfhsMctnGLyA _7IwPYMlzEfGfhsMctnGLyA _D3TT4Ml0EfGfhsMctnGLyA _IxlckMl0EfGfhsMctnGLyA _Or3psMl0EfGfhsMctnGLyA _RM_ioMl0EfGfhsMctnGLyA _YEEvMMl0EfGfhsMctnGLyA _csRCUMl0EfGfhsMctnGLyA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_287E8MlvEfGfhsMctnGLyA" name="AutomatedTenantOnboarding" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_EKPa0MlwEfGfhsMctnGLyA" extendedCase="_-rsHcMlvEfGfhsMctnGLyA" extensionLocation="_EKR3EMlwEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5Dd6sMlvEfGfhsMctnGLyA" name="Customisation" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_E8BdEMlwEfGfhsMctnGLyA" extendedCase="_-rsHcMlvEfGfhsMctnGLyA" extensionLocation="_E8CEIMlwEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_xsLHkMlwEfGfhsMctnGLyA" addition="_vAMCcMlwEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6H_SwMlvEfGfhsMctnGLyA" name="TenantLifecycleControls" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_FjcpcMlwEfGfhsMctnGLyA" extendedCase="_-rsHcMlvEfGfhsMctnGLyA" extensionLocation="_FjdQgMlwEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-rsHcMlvEfGfhsMctnGLyA" name="TenantManagement" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EKR3EMlwEfGfhsMctnGLyA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_E8CEIMlwEfGfhsMctnGLyA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FjdQgMlwEfGfhsMctnGLyA" name="ExtensionPoint3"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_vAMCcMlwEfGfhsMctnGLyA" name="ViewCustomerBranding" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7Il-sMlwEfGfhsMctnGLyA" name="OperatorManagement" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FUbgkMlxEfGfhsMctnGLyA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KKhs0MlxEfGfhsMctnGLyA" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Bl8coMlxEfGfhsMctnGLyA" name="OperatorAccessControl" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_FUa5gMlxEfGfhsMctnGLyA" extendedCase="_7Il-sMlwEfGfhsMctnGLyA" extensionLocation="_FUbgkMlxEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HhbjoMlxEfGfhsMctnGLyA" name="ImmutableAuditLogging" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_KKhFwMlxEfGfhsMctnGLyA" extendedCase="_7Il-sMlwEfGfhsMctnGLyA" extensionLocation="_KKhs0MlxEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_g6KGcMlxEfGfhsMctnGLyA" name="Billing" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_i2c0AclxEfGfhsMctnGLyA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_o069kMlxEfGfhsMctnGLyA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xzTN0MlxEfGfhsMctnGLyA" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_oHhPkclyEfGfhsMctnGLyA" name="ExtensionPoint4"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_h6BoAMlxEfGfhsMctnGLyA" name="Subsrciption" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_i2c0AMlxEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_i2c0AclxEfGfhsMctnGLyA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_oW0sUMlxEfGfhsMctnGLyA" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_Tk5DkMlzEfGfhsMctnGLyA" addition="_SIORQMlzEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_XM324MlzEfGfhsMctnGLyA" addition="_Uiq6cMlzEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_cj5l8MlzEfGfhsMctnGLyA" addition="_ZWJ3kMlzEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_lqXtIMlxEfGfhsMctnGLyA" name="MultiTierSaaSLicensing" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_oW0FQMlxEfGfhsMctnGLyA" extendedCase="_h6BoAMlxEfGfhsMctnGLyA" extensionLocation="_oW0sUMlxEfGfhsMctnGLyA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_o06WgMlxEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_o069kMlxEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ut6KMMlxEfGfhsMctnGLyA" name="ResourceUsageMetering" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_xzSmwMlxEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_xzTN0MlxEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_1Q4H8MlxEfGfhsMctnGLyA" addition="_y9-RMMlxEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_7oTkEMlxEfGfhsMctnGLyA" addition="_6QUdcMlxEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_BIJ38MlyEfGfhsMctnGLyA" addition="_-TbGgMlxEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_F1dUkMlyEfGfhsMctnGLyA" addition="_ClbuQMlyEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_y9-RMMlxEfGfhsMctnGLyA" name="GetRoomCount" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6QUdcMlxEfGfhsMctnGLyA" name="GetActiveStudents" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-TbGgMlxEfGfhsMctnGLyA" name="CloudStorageConsumption" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ClbuQMlyEfGfhsMctnGLyA" name="GetAPICallVolumes" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_a7c24MlyEfGfhsMctnGLyA" name="GlobalCrossUniversityServices" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tMa3YMlzEfGfhsMctnGLyA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__O0s4MlzEfGfhsMctnGLyA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_LijvYMl0EfGfhsMctnGLyA" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cC3gAMl0EfGfhsMctnGLyA" name="ExtensionPoint4"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_iHQ9UMlyEfGfhsMctnGLyA" name="AutomatedB2BInvoicing" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_oHhPkMlyEfGfhsMctnGLyA" extendedCase="_g6KGcMlxEfGfhsMctnGLyA" extensionLocation="_oHhPkclyEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_vafG4MlyEfGfhsMctnGLyA" addition="_s54yYMlyEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_1H0dIMlyEfGfhsMctnGLyA" addition="_v3FjUMlyEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_IGAlcMlzEfGfhsMctnGLyA" addition="_v3FjUMlyEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_e8i4UMlzEfGfhsMctnGLyA" addition="_ZWJ3kMlzEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_s54yYMlyEfGfhsMctnGLyA" name="CalculatePeriodicLicencing" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_v3FjUMlyEfGfhsMctnGLyA" name="GenerateAutomatedInvoices" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_SIORQMlzEfGfhsMctnGLyA" name="StandardSubscription" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Uiq6cMlzEfGfhsMctnGLyA" name="ProfessionalSubsription" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZWJ3kMlzEfGfhsMctnGLyA" name="EnterpriseSubscription" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pueJ0MlzEfGfhsMctnGLyA" name="CentralisedALModelManagement" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_tMZpQMlzEfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="_tMa3YMlzEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_wd52QMlzEfGfhsMctnGLyA" addition="_uhHZcMlzEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_y1Z5IMlzEfGfhsMctnGLyA" addition="_xC-SMMlzEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_58IrQMlzEfGfhsMctnGLyA" addition="_2URMsMlzEfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uhHZcMlzEfGfhsMctnGLyA" name="MaintainModel" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_xC-SMMlzEfGfhsMctnGLyA" name="DeployModel" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2URMsMlzEfGfhsMctnGLyA" name="MonitorAccuracy" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7IwPYMlzEfGfhsMctnGLyA" name="CrossTenantBenchmarking" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="__OzewMlzEfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="__O0s4MlzEfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_HUAEQMl0EfGfhsMctnGLyA" addition="_D3TT4Ml0EfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_D3TT4Ml0EfGfhsMctnGLyA" name="GenerateDataset" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_IxlckMl0EfGfhsMctnGLyA" name="ContinuousActiveMachineLearningPipeline" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_LiihQMl0EfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="_LijvYMl0EfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_QvgVYMl0EfGfhsMctnGLyA" addition="_Or3psMl0EfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_UddN0Ml0EfGfhsMctnGLyA" addition="_RM_ioMl0EfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Or3psMl0EfGfhsMctnGLyA" name="AggregateErrors" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_RM_ioMl0EfGfhsMctnGLyA" name="DefectClassification" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YEEvMMl0EfGfhsMctnGLyA" name="TenantLevelSystemBroadcasts" subject="_uhKZkMlvEfGfhsMctnGLyA">
+      <extend xmi:type="uml:Extend" xmi:id="_cC2R4Ml0EfGfhsMctnGLyA" extendedCase="_a7c24MlyEfGfhsMctnGLyA" extensionLocation="_cC3gAMl0EfGfhsMctnGLyA"/>
+      <include xmi:type="uml:Include" xmi:id="_ftMcsMl0EfGfhsMctnGLyA" addition="_csRCUMl0EfGfhsMctnGLyA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_csRCUMl0EfGfhsMctnGLyA" name="PlatformWideNotification" subject="_uhKZkMlvEfGfhsMctnGLyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_G_jbEMlwEfGfhsMctnGLyA" name="Customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JUlYwMlwEfGfhsMctnGLyA"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-NONUMlwEfGfhsMctnGLyA" name="OperationStaff"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__YxacMlwEfGfhsMctnGLyA" memberEnd="__YzPoMlwEfGfhsMctnGLyA __Y1r4MlwEfGfhsMctnGLyA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__YyokMlwEfGfhsMctnGLyA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__YyokclwEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__YzPoMlwEfGfhsMctnGLyA" name="operatormanagement" type="_7Il-sMlwEfGfhsMctnGLyA" association="__YxacMlwEfGfhsMctnGLyA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__Y1r4MlwEfGfhsMctnGLyA" name="operator" type="_-NONUMlwEfGfhsMctnGLyA" association="__YxacMlwEfGfhsMctnGLyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MPaVsMlxEfGfhsMctnGLyA" name="Administration"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OGyuEMlxEfGfhsMctnGLyA" memberEnd="_OGz8MMlxEfGfhsMctnGLyA _OGz8MclxEfGfhsMctnGLyA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OGzVIMlxEfGfhsMctnGLyA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OGzVIclxEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OGz8MMlxEfGfhsMctnGLyA" name="administration" type="_MPaVsMlxEfGfhsMctnGLyA" association="_OGyuEMlxEfGfhsMctnGLyA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OGz8MclxEfGfhsMctnGLyA" name="immutableauditlogging" type="_HhbjoMlxEfGfhsMctnGLyA" association="_OGyuEMlxEfGfhsMctnGLyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QP1BsMlyEfGfhsMctnGLyA" memberEnd="_QP2P0slyEfGfhsMctnGLyA _QP2P08lyEfGfhsMctnGLyA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QP2P0MlyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QP2P0clyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QP2P0slyEfGfhsMctnGLyA" name="billing" type="_g6KGcMlxEfGfhsMctnGLyA" association="_QP1BsMlyEfGfhsMctnGLyA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QP2P08lyEfGfhsMctnGLyA" name="administration" type="_MPaVsMlxEfGfhsMctnGLyA" association="_QP1BsMlyEfGfhsMctnGLyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_REZ5QMlyEfGfhsMctnGLyA" memberEnd="_REbHYslyEfGfhsMctnGLyA _REbHY8lyEfGfhsMctnGLyA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_REbHYMlyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_REbHYclyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_REbHYslyEfGfhsMctnGLyA" name="billing" type="_g6KGcMlxEfGfhsMctnGLyA" association="_REZ5QMlyEfGfhsMctnGLyA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_REbHY8lyEfGfhsMctnGLyA" name="customer" type="_G_jbEMlwEfGfhsMctnGLyA" association="_REZ5QMlyEfGfhsMctnGLyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eUXTcMlyEfGfhsMctnGLyA" memberEnd="_eUYhkclyEfGfhsMctnGLyA _eUYhkslyEfGfhsMctnGLyA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eUX6gMlyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eUYhkMlyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eUYhkclyEfGfhsMctnGLyA" name="customer" type="_G_jbEMlwEfGfhsMctnGLyA" association="_eUXTcMlyEfGfhsMctnGLyA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eUYhkslyEfGfhsMctnGLyA" name="globalcrossuniversityservices" type="_a7c24MlyEfGfhsMctnGLyA" association="_eUXTcMlyEfGfhsMctnGLyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gUMdMMlyEfGfhsMctnGLyA" memberEnd="_gUMdM8lyEfGfhsMctnGLyA _gUMdNMlyEfGfhsMctnGLyA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gUMdMclyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gUMdMslyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gUMdM8lyEfGfhsMctnGLyA" name="administration" type="_MPaVsMlxEfGfhsMctnGLyA" association="_gUMdMMlyEfGfhsMctnGLyA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gUMdNMlyEfGfhsMctnGLyA" name="globalcrossuniversityservices" type="_a7c24MlyEfGfhsMctnGLyA" association="_gUMdMMlyEfGfhsMctnGLyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_3cVnkMxeEfGloc65MU4Pxg" name="Activity13" node="_S7xYMMxfEfGloc65MU4Pxg _VtCW8NHmEfG995FoPlaZOg _gJV9wNHmEfG995FoPlaZOg _hw0R4NHmEfG995FoPlaZOg _ny5wINHmEfG995FoPlaZOg _yL3vENHmEfG995FoPlaZOg _FAMJsNHnEfG995FoPlaZOg _MjxacNHoEfG995FoPlaZOg">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_DkbLwNHmEfG995FoPlaZOg" name="Customer" node="_MRTcUNHmEfG995FoPlaZOg _vHgmMNHmEfG995FoPlaZOg _77cywNHmEfG995FoPlaZOg _Is0-ENHoEfG995FoPlaZOg">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XrK3kNHmEfG995FoPlaZOg" target="_VtCW8NHmEfG995FoPlaZOg" source="_MRTcUNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_1HOs8NHmEfG995FoPlaZOg" target="_yL3vENHmEfG995FoPlaZOg" source="_vHgmMNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_-r8kcNHmEfG995FoPlaZOg" target="_77cywNHmEfG995FoPlaZOg" source="_vHgmMNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_HU4wMNHnEfG995FoPlaZOg" target="_FAMJsNHnEfG995FoPlaZOg" source="_77cywNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Nn8NMNHoEfG995FoPlaZOg" target="_MjxacNHoEfG995FoPlaZOg" source="_Is0-ENHoEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_MRTcUNHmEfG995FoPlaZOg" name="Start Log In" incoming="_N5apoNHmEfG995FoPlaZOg" outgoing="_XrK3kNHmEfG995FoPlaZOg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_vHgmMNHmEfG995FoPlaZOg" name="DecisionNode3" incoming="_6QV70NHmEfG995FoPlaZOg" outgoing="_1HOs8NHmEfG995FoPlaZOg _-r8kcNHmEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_77cywNHmEfG995FoPlaZOg" name="Press Branding Button" incoming="_-r8kcNHmEfG995FoPlaZOg _I2iJINHnEfG995FoPlaZOg" outgoing="_HU4wMNHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_Is0-ENHoEfG995FoPlaZOg" name="View Branding" incoming="_KoxGUNHoEfG995FoPlaZOg" outgoing="_Nn8NMNHoEfG995FoPlaZOg"/>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZFW9oNHmEfG995FoPlaZOg" name="PlatformOperatorSubsystem" node="_c17FMNHmEfG995FoPlaZOg _NFW6ANHnEfG995FoPlaZOg _TmMJwNHnEfG995FoPlaZOg _cwhLUNHnEfG995FoPlaZOg _ks4k8NHnEfG995FoPlaZOg">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_qg-f8NHmEfG995FoPlaZOg" target="_gJV9wNHmEfG995FoPlaZOg" source="_c17FMNHmEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ShtN8NHnEfG995FoPlaZOg" source="_NFW6ANHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_YOFh8NHnEfG995FoPlaZOg" target="_TmMJwNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_d6S20NHnEfG995FoPlaZOg" target="_cwhLUNHnEfG995FoPlaZOg" source="_NFW6ANHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_xxXH4NHnEfG995FoPlaZOg" name="[No Branding]" target="_cwhLUNHnEfG995FoPlaZOg" source="_TmMJwNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_45lu0NHnEfG995FoPlaZOg" name="[Else]" target="_ks4k8NHnEfG995FoPlaZOg" source="_cwhLUNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="__quEYNHnEfG995FoPlaZOg" target="_ny5wINHmEfG995FoPlaZOg" source="_TmMJwNHnEfG995FoPlaZOg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_F2SOwNHoEfG995FoPlaZOg" target="_hw0R4NHmEfG995FoPlaZOg" source="_ks4k8NHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_c17FMNHmEfG995FoPlaZOg" name="Send to Account" incoming="_ebvMcNHmEfG995FoPlaZOg" outgoing="_qg-f8NHmEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_NFW6ANHnEfG995FoPlaZOg" name="Check Branding" incoming="_OmUWcNHnEfG995FoPlaZOg" outgoing="_ShtN8NHnEfG995FoPlaZOg _d6S20NHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_TmMJwNHnEfG995FoPlaZOg" name="Display Error Message &quot;No Branding&quot;" incoming="_YOFh8NHnEfG995FoPlaZOg" outgoing="_xxXH4NHnEfG995FoPlaZOg __quEYNHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_cwhLUNHnEfG995FoPlaZOg" name="DecisionNode7" incoming="_d6S20NHnEfG995FoPlaZOg _xxXH4NHnEfG995FoPlaZOg" outgoing="_45lu0NHnEfG995FoPlaZOg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_ks4k8NHnEfG995FoPlaZOg" name="Display All Customer Branding" incoming="_45lu0NHnEfG995FoPlaZOg" outgoing="_F2SOwNHoEfG995FoPlaZOg"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_N5apoNHmEfG995FoPlaZOg" target="_MRTcUNHmEfG995FoPlaZOg" source="_S7xYMMxfEfGloc65MU4Pxg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ebvMcNHmEfG995FoPlaZOg" target="_c17FMNHmEfG995FoPlaZOg" source="_VtCW8NHmEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6QV70NHmEfG995FoPlaZOg" target="_vHgmMNHmEfG995FoPlaZOg" source="_gJV9wNHmEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_I2iJINHnEfG995FoPlaZOg" target="_77cywNHmEfG995FoPlaZOg" source="_ny5wINHmEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OmUWcNHnEfG995FoPlaZOg" target="_NFW6ANHnEfG995FoPlaZOg" source="_FAMJsNHnEfG995FoPlaZOg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KoxGUNHoEfG995FoPlaZOg" target="_Is0-ENHoEfG995FoPlaZOg" source="_hw0R4NHmEfG995FoPlaZOg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_S7xYMMxfEfGloc65MU4Pxg" name="" outgoing="_N5apoNHmEfG995FoPlaZOg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_VtCW8NHmEfG995FoPlaZOg" name="Message to request login" incoming="_XrK3kNHmEfG995FoPlaZOg" outgoing="_ebvMcNHmEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_VtC-ANHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_gJV9wNHmEfG995FoPlaZOg" name="Open Account Page" incoming="_qg-f8NHmEfG995FoPlaZOg" outgoing="_6QV70NHmEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_gJWk0NHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_hw0R4NHmEfG995FoPlaZOg" name="Display Branding" incoming="_F2SOwNHoEfG995FoPlaZOg" outgoing="_KoxGUNHoEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_hw048NHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_ny5wINHmEfG995FoPlaZOg" name="Error Message &quot;No Branding&quot;" incoming="__quEYNHnEfG995FoPlaZOg" outgoing="_I2iJINHnEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ny6XMNHmEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_yL3vENHmEfG995FoPlaZOg" name="Other Activity" incoming="_1HOs8NHmEfG995FoPlaZOg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_FAMJsNHnEfG995FoPlaZOg" name="Message to Request Branding" incoming="_HU4wMNHnEfG995FoPlaZOg" outgoing="_OmUWcNHnEfG995FoPlaZOg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_FAMwwNHnEfG995FoPlaZOg" value="1"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_MjxacNHoEfG995FoPlaZOg" name="End Activity" incoming="_Nn8NMNHoEfG995FoPlaZOg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_NK41UOJxEfG1PO7Fka7_4A" name="PlatformOperatorSubsystem">
+    <packagedElement xmi:type="uml:Component" xmi:id="_SL2NwOJxEfG1PO7Fka7_4A" name="TenantInformation">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_gCeZoOm0EfGYE8uuAYt3Tg" client="_SL2NwOJxEfG1PO7Fka7_4A" supplier="_eBy7UOm0EfGYE8uuAYt3Tg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_G_jbEMlwEfGfhsMctnGLyA" name="Customer"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_JUlYwMlwEfGfhsMctnGLyA"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_-NONUMlwEfGfhsMctnGLyA" name="OperationStaff"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="__YxacMlwEfGfhsMctnGLyA" memberEnd="__YzPoMlwEfGfhsMctnGLyA __Y1r4MlwEfGfhsMctnGLyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__YyokMlwEfGfhsMctnGLyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__YyokclwEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="__YzPoMlwEfGfhsMctnGLyA" name="operatormanagement" type="_7Il-sMlwEfGfhsMctnGLyA" association="__YxacMlwEfGfhsMctnGLyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="__Y1r4MlwEfGfhsMctnGLyA" name="operator" type="_-NONUMlwEfGfhsMctnGLyA" association="__YxacMlwEfGfhsMctnGLyA"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_7r_DkOdUEfG3P5tk5_iHBw" name="Invoicing"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_o08KQOmzEfGYE8uuAYt3Tg" name="Customisation">
+      <generalization xmi:type="uml:Generalization" xmi:id="_zx3K0OmzEfGYE8uuAYt3Tg" general="_dBX1kOmzEfGYE8uuAYt3Tg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_MPaVsMlxEfGfhsMctnGLyA" name="Administration"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_OGyuEMlxEfGfhsMctnGLyA" memberEnd="_OGz8MMlxEfGfhsMctnGLyA _OGz8MclxEfGfhsMctnGLyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OGzVIMlxEfGfhsMctnGLyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OGzVIclxEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_OGz8MMlxEfGfhsMctnGLyA" name="administration" type="_MPaVsMlxEfGfhsMctnGLyA" association="_OGyuEMlxEfGfhsMctnGLyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_OGz8MclxEfGfhsMctnGLyA" name="immutableauditlogging" type="_HhbjoMlxEfGfhsMctnGLyA" association="_OGyuEMlxEfGfhsMctnGLyA"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_v_Au0Om0EfGYE8uuAYt3Tg" name="Audit Logging"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_YIAqMOJxEfG1PO7Fka7_4A" name="Cloud">
+    <packagedElement xmi:type="uml:Component" xmi:id="_WCaPoOdTEfG3P5tk5_iHBw" name="Repair Database">
+      <generalization xmi:type="uml:Generalization" xmi:id="_RW3rYOm1EfGYE8uuAYt3Tg" general="_458pgOm0EfGYE8uuAYt3Tg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_oCwNcOm1EfGYE8uuAYt3Tg" general="_eVJfsOm1EfGYE8uuAYt3Tg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_pt7V0Om1EfGYE8uuAYt3Tg" general="_L9ek0Om1EfGYE8uuAYt3Tg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_vU920Om1EfGYE8uuAYt3Tg" general="_rsAMEOm1EfGYE8uuAYt3Tg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_QP1BsMlyEfGfhsMctnGLyA" memberEnd="_QP2P0slyEfGfhsMctnGLyA _QP2P08lyEfGfhsMctnGLyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QP2P0MlyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QP2P0clyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_QP2P0slyEfGfhsMctnGLyA" name="billing" type="_g6KGcMlxEfGfhsMctnGLyA" association="_QP1BsMlyEfGfhsMctnGLyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_QP2P08lyEfGfhsMctnGLyA" name="administration" type="_MPaVsMlxEfGfhsMctnGLyA" association="_QP1BsMlyEfGfhsMctnGLyA"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_uWxQkOmyEfGYE8uuAYt3Tg" name="Inventory Database">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TwX5YOm1EfGYE8uuAYt3Tg" general="_458pgOm0EfGYE8uuAYt3Tg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_elnIIOm2EfGYE8uuAYt3Tg" general="_a1qroOm2EfGYE8uuAYt3Tg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_REZ5QMlyEfGfhsMctnGLyA" memberEnd="_REbHYslyEfGfhsMctnGLyA _REbHY8lyEfGfhsMctnGLyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_REbHYMlyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_REbHYclyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_REbHYslyEfGfhsMctnGLyA" name="billing" type="_g6KGcMlxEfGfhsMctnGLyA" association="_REZ5QMlyEfGfhsMctnGLyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_REbHY8lyEfGfhsMctnGLyA" name="customer" type="_G_jbEMlwEfGfhsMctnGLyA" association="_REZ5QMlyEfGfhsMctnGLyA"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="__RfFQOmyEfGYE8uuAYt3Tg" name="Accomodation Database">
+      <generalization xmi:type="uml:Generalization" xmi:id="_EIfbAOm0EfGYE8uuAYt3Tg" general="_50O88OmzEfGYE8uuAYt3Tg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_lXKUcOm2EfGYE8uuAYt3Tg" general="_VlZzQOmzEfGYE8uuAYt3Tg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_s-B_MOm2EfGYE8uuAYt3Tg" general="_Z55uUOmzEfGYE8uuAYt3Tg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_eUXTcMlyEfGfhsMctnGLyA" memberEnd="_eUYhkclyEfGfhsMctnGLyA _eUYhkslyEfGfhsMctnGLyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eUX6gMlyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eUYhkMlyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_eUYhkclyEfGfhsMctnGLyA" name="customer" type="_G_jbEMlwEfGfhsMctnGLyA" association="_eUXTcMlyEfGfhsMctnGLyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_eUYhkslyEfGfhsMctnGLyA" name="globalcrossuniversityservices" type="_a7c24MlyEfGfhsMctnGLyA" association="_eUXTcMlyEfGfhsMctnGLyA"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_D4TfYOmzEfGYE8uuAYt3Tg" name="Tenancy Agreement Database">
+      <generalization xmi:type="uml:Generalization" xmi:id="_g1nGwOm0EfGYE8uuAYt3Tg" general="_eBy7UOm0EfGYE8uuAYt3Tg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_o1w0MOm0EfGYE8uuAYt3Tg" general="_ift4IOm0EfGYE8uuAYt3Tg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_gUMdMMlyEfGfhsMctnGLyA" memberEnd="_gUMdM8lyEfGfhsMctnGLyA _gUMdNMlyEfGfhsMctnGLyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gUMdMclyEfGfhsMctnGLyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gUMdMslyEfGfhsMctnGLyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_gUMdM8lyEfGfhsMctnGLyA" name="administration" type="_MPaVsMlxEfGfhsMctnGLyA" association="_gUMdMMlyEfGfhsMctnGLyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_gUMdNMlyEfGfhsMctnGLyA" name="globalcrossuniversityservices" type="_a7c24MlyEfGfhsMctnGLyA" association="_gUMdMMlyEfGfhsMctnGLyA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_3cVnkMxeEfGloc65MU4Pxg" name="Activity13" node="_S7xYMMxfEfGloc65MU4Pxg _VtCW8NHmEfG995FoPlaZOg _gJV9wNHmEfG995FoPlaZOg _hw0R4NHmEfG995FoPlaZOg _ny5wINHmEfG995FoPlaZOg _yL3vENHmEfG995FoPlaZOg _FAMJsNHnEfG995FoPlaZOg _MjxacNHoEfG995FoPlaZOg">
-      <ownedBehavior xmi:type="uml:Activity" xmi:id="_DkbLwNHmEfG995FoPlaZOg" name="Customer" node="_MRTcUNHmEfG995FoPlaZOg _vHgmMNHmEfG995FoPlaZOg _77cywNHmEfG995FoPlaZOg _Is0-ENHoEfG995FoPlaZOg">
-        <edge xmi:type="uml:ControlFlow" xmi:id="_XrK3kNHmEfG995FoPlaZOg" target="_VtCW8NHmEfG995FoPlaZOg" source="_MRTcUNHmEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_1HOs8NHmEfG995FoPlaZOg" target="_yL3vENHmEfG995FoPlaZOg" source="_vHgmMNHmEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_-r8kcNHmEfG995FoPlaZOg" target="_77cywNHmEfG995FoPlaZOg" source="_vHgmMNHmEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_HU4wMNHnEfG995FoPlaZOg" target="_FAMJsNHnEfG995FoPlaZOg" source="_77cywNHmEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_Nn8NMNHoEfG995FoPlaZOg" target="_MjxacNHoEfG995FoPlaZOg" source="_Is0-ENHoEfG995FoPlaZOg"/>
-        <node xmi:type="uml:CreateObjectAction" xmi:id="_MRTcUNHmEfG995FoPlaZOg" name="Start Log In" incoming="_N5apoNHmEfG995FoPlaZOg" outgoing="_XrK3kNHmEfG995FoPlaZOg"/>
-        <node xmi:type="uml:DecisionNode" xmi:id="_vHgmMNHmEfG995FoPlaZOg" name="DecisionNode3" incoming="_6QV70NHmEfG995FoPlaZOg" outgoing="_1HOs8NHmEfG995FoPlaZOg _-r8kcNHmEfG995FoPlaZOg"/>
-        <node xmi:type="uml:CreateObjectAction" xmi:id="_77cywNHmEfG995FoPlaZOg" name="Press Branding Button" incoming="_-r8kcNHmEfG995FoPlaZOg _I2iJINHnEfG995FoPlaZOg" outgoing="_HU4wMNHnEfG995FoPlaZOg"/>
-        <node xmi:type="uml:CreateObjectAction" xmi:id="_Is0-ENHoEfG995FoPlaZOg" name="View Branding" incoming="_KoxGUNHoEfG995FoPlaZOg" outgoing="_Nn8NMNHoEfG995FoPlaZOg"/>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZFW9oNHmEfG995FoPlaZOg" name="PlatformOperatorSubsystem" node="_c17FMNHmEfG995FoPlaZOg _NFW6ANHnEfG995FoPlaZOg _TmMJwNHnEfG995FoPlaZOg _cwhLUNHnEfG995FoPlaZOg _ks4k8NHnEfG995FoPlaZOg">
-        <edge xmi:type="uml:ControlFlow" xmi:id="_qg-f8NHmEfG995FoPlaZOg" target="_gJV9wNHmEfG995FoPlaZOg" source="_c17FMNHmEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_ShtN8NHnEfG995FoPlaZOg" source="_NFW6ANHnEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_YOFh8NHnEfG995FoPlaZOg" target="_TmMJwNHnEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_d6S20NHnEfG995FoPlaZOg" target="_cwhLUNHnEfG995FoPlaZOg" source="_NFW6ANHnEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_xxXH4NHnEfG995FoPlaZOg" name="[No Branding]" target="_cwhLUNHnEfG995FoPlaZOg" source="_TmMJwNHnEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_45lu0NHnEfG995FoPlaZOg" name="[Else]" target="_ks4k8NHnEfG995FoPlaZOg" source="_cwhLUNHnEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="__quEYNHnEfG995FoPlaZOg" target="_ny5wINHmEfG995FoPlaZOg" source="_TmMJwNHnEfG995FoPlaZOg"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_F2SOwNHoEfG995FoPlaZOg" target="_hw0R4NHmEfG995FoPlaZOg" source="_ks4k8NHnEfG995FoPlaZOg"/>
-        <node xmi:type="uml:CreateObjectAction" xmi:id="_c17FMNHmEfG995FoPlaZOg" name="Send to Account" incoming="_ebvMcNHmEfG995FoPlaZOg" outgoing="_qg-f8NHmEfG995FoPlaZOg"/>
-        <node xmi:type="uml:CreateObjectAction" xmi:id="_NFW6ANHnEfG995FoPlaZOg" name="Check Branding" incoming="_OmUWcNHnEfG995FoPlaZOg" outgoing="_ShtN8NHnEfG995FoPlaZOg _d6S20NHnEfG995FoPlaZOg"/>
-        <node xmi:type="uml:CreateObjectAction" xmi:id="_TmMJwNHnEfG995FoPlaZOg" name="Display Error Message &quot;No Branding&quot;" incoming="_YOFh8NHnEfG995FoPlaZOg" outgoing="_xxXH4NHnEfG995FoPlaZOg __quEYNHnEfG995FoPlaZOg"/>
-        <node xmi:type="uml:DecisionNode" xmi:id="_cwhLUNHnEfG995FoPlaZOg" name="DecisionNode7" incoming="_d6S20NHnEfG995FoPlaZOg _xxXH4NHnEfG995FoPlaZOg" outgoing="_45lu0NHnEfG995FoPlaZOg"/>
-        <node xmi:type="uml:CreateObjectAction" xmi:id="_ks4k8NHnEfG995FoPlaZOg" name="Display All Customer Branding" incoming="_45lu0NHnEfG995FoPlaZOg" outgoing="_F2SOwNHoEfG995FoPlaZOg"/>
-      </ownedBehavior>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_N5apoNHmEfG995FoPlaZOg" target="_MRTcUNHmEfG995FoPlaZOg" source="_S7xYMMxfEfGloc65MU4Pxg"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_ebvMcNHmEfG995FoPlaZOg" target="_c17FMNHmEfG995FoPlaZOg" source="_VtCW8NHmEfG995FoPlaZOg"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_6QV70NHmEfG995FoPlaZOg" target="_vHgmMNHmEfG995FoPlaZOg" source="_gJV9wNHmEfG995FoPlaZOg"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_I2iJINHnEfG995FoPlaZOg" target="_77cywNHmEfG995FoPlaZOg" source="_ny5wINHmEfG995FoPlaZOg"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_OmUWcNHnEfG995FoPlaZOg" target="_NFW6ANHnEfG995FoPlaZOg" source="_FAMJsNHnEfG995FoPlaZOg"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_KoxGUNHoEfG995FoPlaZOg" target="_Is0-ENHoEfG995FoPlaZOg" source="_hw0R4NHmEfG995FoPlaZOg"/>
-      <node xmi:type="uml:InitialNode" xmi:id="_S7xYMMxfEfGloc65MU4Pxg" name="" outgoing="_N5apoNHmEfG995FoPlaZOg"/>
-      <node xmi:type="uml:CentralBufferNode" xmi:id="_VtCW8NHmEfG995FoPlaZOg" name="Message to request login" incoming="_XrK3kNHmEfG995FoPlaZOg" outgoing="_ebvMcNHmEfG995FoPlaZOg">
-        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_VtC-ANHmEfG995FoPlaZOg" value="1"/>
-      </node>
-      <node xmi:type="uml:CentralBufferNode" xmi:id="_gJV9wNHmEfG995FoPlaZOg" name="Open Account Page" incoming="_qg-f8NHmEfG995FoPlaZOg" outgoing="_6QV70NHmEfG995FoPlaZOg">
-        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_gJWk0NHmEfG995FoPlaZOg" value="1"/>
-      </node>
-      <node xmi:type="uml:CentralBufferNode" xmi:id="_hw0R4NHmEfG995FoPlaZOg" name="Display Branding" incoming="_F2SOwNHoEfG995FoPlaZOg" outgoing="_KoxGUNHoEfG995FoPlaZOg">
-        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_hw048NHmEfG995FoPlaZOg" value="1"/>
-      </node>
-      <node xmi:type="uml:CentralBufferNode" xmi:id="_ny5wINHmEfG995FoPlaZOg" name="Error Message &quot;No Branding&quot;" incoming="__quEYNHnEfG995FoPlaZOg" outgoing="_I2iJINHnEfG995FoPlaZOg">
-        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ny6XMNHmEfG995FoPlaZOg" value="1"/>
-      </node>
-      <node xmi:type="uml:ActivityFinalNode" xmi:id="_yL3vENHmEfG995FoPlaZOg" name="Other Activity" incoming="_1HOs8NHmEfG995FoPlaZOg"/>
-      <node xmi:type="uml:CentralBufferNode" xmi:id="_FAMJsNHnEfG995FoPlaZOg" name="Message to Request Branding" incoming="_HU4wMNHnEfG995FoPlaZOg" outgoing="_OmUWcNHnEfG995FoPlaZOg">
-        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_FAMwwNHnEfG995FoPlaZOg" value="1"/>
-      </node>
-      <node xmi:type="uml:ActivityFinalNode" xmi:id="_MjxacNHoEfG995FoPlaZOg" name="End Activity" incoming="_Nn8NMNHoEfG995FoPlaZOg"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_NK41UOJxEfG1PO7Fka7_4A" name="PlatformOperator">
-      <packagedElement xmi:type="uml:Component" xmi:id="_SL2NwOJxEfG1PO7Fka7_4A" name="TenantInformation">
-        <packagedElement xmi:type="uml:Usage" xmi:id="_gTYTsOdUEfG3P5tk5_iHBw" client="_SL2NwOJxEfG1PO7Fka7_4A" supplier="_WCaPoOdTEfG3P5tk5_iHBw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_U6XpgOJxEfG1PO7Fka7_4A" name="Subscriptions"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_WmhCQOJxEfG1PO7Fka7_4A" name="Broadcasts"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_7r_DkOdUEfG3P5tk5_iHBw" name="Invoicing"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_YIAqMOJxEfG1PO7Fka7_4A" name="Inventory">
-      <packagedElement xmi:type="uml:Component" xmi:id="_WCaPoOdTEfG3P5tk5_iHBw" name="TenantSpecificBranding"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_Z6WKgOdTEfG3P5tk5_iHBw" name="CostDatabase"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_h-mU0OdTEfG3P5tk5_iHBw" name="ResourceUsageMetering">
-        <packagedElement xmi:type="uml:Component" xmi:id="_tjk-cOdUEfG3P5tk5_iHBw" name="ActiveStudents"/>
-        <packagedElement xmi:type="uml:Component" xmi:id="_yUz40OdUEfG3P5tk5_iHBw" name="ActiveBedroomCount"/>
-        <packagedElement xmi:type="uml:Component" xmi:id="_03sFQOdUEfG3P5tk5_iHBw" name="CallVolumes"/>
-      </packagedElement>
-    </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SpIKMOJyEfG1PO7Fka7_4A">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SpRUIOJyEfG1PO7Fka7_4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
-    </profileApplication>
-  </uml:Model>
-  <ActionLanguage:TextualRepresentation xmi:id="_SpfWkOJyEfG1PO7Fka7_4A" language="org.eclipse.papyrus.uml.textedit.port.xtext.UmlPort"/>
-</xmi:XMI>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_h-mU0OdTEfG3P5tk5_iHBw" name="ResourceUsageMetering">
+    <packagedElement xmi:type="uml:Component" xmi:id="_tjk-cOdUEfG3P5tk5_iHBw" name="ActiveStudents"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_yUz40OdUEfG3P5tk5_iHBw" name="ActiveRoomCount"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_VlZzQOmzEfGYE8uuAYt3Tg" name="Log Room Count "/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Z55uUOmzEfGYE8uuAYt3Tg" name="Log Active Students"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_dBX1kOmzEfGYE8uuAYt3Tg" name="Change Branding"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_50O88OmzEfGYE8uuAYt3Tg" name="Update Branding"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_8SvmwOmzEfGYE8uuAYt3Tg" name="Get Branding">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Cvj5MOm0EfGYE8uuAYt3Tg" general="_o08KQOmzEfGYE8uuAYt3Tg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_1dz50Om0EfGYE8uuAYt3Tg" client="_8SvmwOmzEfGYE8uuAYt3Tg" supplier="__RfFQOmyEfGYE8uuAYt3Tg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_FHjrUOm0EfGYE8uuAYt3Tg" client="_50O88OmzEfGYE8uuAYt3Tg" supplier="_o08KQOmzEfGYE8uuAYt3Tg"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_LS7ocOm0EfGYE8uuAYt3Tg" name="Student Subsystem ">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_w0oSwOm1EfGYE8uuAYt3Tg" client="_LS7ocOm0EfGYE8uuAYt3Tg" supplier="_rsAMEOm1EfGYE8uuAYt3Tg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_LmA1IOm3EfGYE8uuAYt3Tg" client="_LS7ocOm0EfGYE8uuAYt3Tg" supplier="_IpVooOm3EfGYE8uuAYt3Tg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_NMa5oOm0EfGYE8uuAYt3Tg" name="Warden Subsystem ">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_qPFiIOm1EfGYE8uuAYt3Tg" client="_NMa5oOm0EfGYE8uuAYt3Tg" supplier="_L9ek0Om1EfGYE8uuAYt3Tg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Qik9IOm0EfGYE8uuAYt3Tg" name="Accomodation Office Subsystem ">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_lLJHIOm1EfGYE8uuAYt3Tg" client="_Qik9IOm0EfGYE8uuAYt3Tg" supplier="_ift4IOm0EfGYE8uuAYt3Tg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nFhJIOm1EfGYE8uuAYt3Tg" client="_Qik9IOm0EfGYE8uuAYt3Tg" supplier="_eVJfsOm1EfGYE8uuAYt3Tg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_H0bZ4Om3EfGYE8uuAYt3Tg" client="_Qik9IOm0EfGYE8uuAYt3Tg" supplier="_DORuIOm3EfGYE8uuAYt3Tg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_eBy7UOm0EfGYE8uuAYt3Tg" name="Manage Tennancies "/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ift4IOm0EfGYE8uuAYt3Tg" name="Create Tennacy Agreement"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_458pgOm0EfGYE8uuAYt3Tg" name="Global Audit Log"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_-MXlYOm0EfGYE8uuAYt3Tg" client="_458pgOm0EfGYE8uuAYt3Tg" supplier="_v_Au0Om0EfGYE8uuAYt3Tg"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_WmhCQOJxEfG1PO7Fka7_4A" name="Broadcasts">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0P6RYOm2EfGYE8uuAYt3Tg" general="_ygh-cOm2EfGYE8uuAYt3Tg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_L9ek0Om1EfGYE8uuAYt3Tg" name="Log Incident"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_aqjdQOm1EfGYE8uuAYt3Tg" name="Student Database">
+    <generalization xmi:type="uml:Generalization" xmi:id="_AY74sOm3EfGYE8uuAYt3Tg" general="_Z55uUOmzEfGYE8uuAYt3Tg"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_GcD4wOm3EfGYE8uuAYt3Tg" general="_DORuIOm3EfGYE8uuAYt3Tg"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_MMe_QOm3EfGYE8uuAYt3Tg" general="_IpVooOm3EfGYE8uuAYt3Tg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_eVJfsOm1EfGYE8uuAYt3Tg" name="Maintenance Log"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rsAMEOm1EfGYE8uuAYt3Tg" name="Raised Repair Ticket"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_a1qroOm2EfGYE8uuAYt3Tg" name="Invoice Tenant"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_deIisOm2EfGYE8uuAYt3Tg" client="_a1qroOm2EfGYE8uuAYt3Tg" supplier="_7r_DkOdUEfG3P5tk5_iHBw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_oCAKEOm2EfGYE8uuAYt3Tg" client="_VlZzQOmzEfGYE8uuAYt3Tg" supplier="_yUz40OdUEfG3P5tk5_iHBw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_pRXgMOm2EfGYE8uuAYt3Tg" client="_Z55uUOmzEfGYE8uuAYt3Tg" supplier="_tjk-cOdUEfG3P5tk5_iHBw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ygh-cOm2EfGYE8uuAYt3Tg" name="Broadcast Alert"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_1aQkoOm2EfGYE8uuAYt3Tg" client="_dvoWEMlvEfGfhsMctnGLyA" supplier="_Qik9IOm0EfGYE8uuAYt3Tg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_6jUwMOm2EfGYE8uuAYt3Tg" client="_ygh-cOm2EfGYE8uuAYt3Tg" supplier="_NMa5oOm0EfGYE8uuAYt3Tg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_8NfzAOm2EfGYE8uuAYt3Tg" client="_ygh-cOm2EfGYE8uuAYt3Tg" supplier="_LS7ocOm0EfGYE8uuAYt3Tg"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_DORuIOm3EfGYE8uuAYt3Tg" name="Student Application"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_IpVooOm3EfGYE8uuAYt3Tg" name="Get Student Application"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SpIKMOJyEfG1PO7Fka7_4A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SpRUIOJyEfG1PO7Fka7_4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
